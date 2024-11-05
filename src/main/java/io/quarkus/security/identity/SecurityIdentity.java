@@ -71,7 +71,7 @@ public interface SecurityIdentity {
     /**
      * Returns the set of all permissions held by the user. These permissions must be resolvable in advance for every request.
      * <p>
-     * This set should either be unmodifiable, or a defensive copy so attempts to change the role set do not modify
+     * This set should either be unmodifiable, or a defensive copy so attempts to change the permission set do not modify
      * the underlying identity.
      *
      * @return The set of all permissions held by the user
